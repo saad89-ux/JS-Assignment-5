@@ -111,10 +111,87 @@ fruits.sort();
 console.log(fruits2,fruits2,fruits3,fruits4);
  */
 
-    
+/* let userName = prompt("Enter your username");
+let frstLt = userName[0];
+frstLt = frstLt.toLocaleUpperCase();
+let lstLt = userName.slice(1);
+lstLt = lstLt.toLocaleLowerCase();
+let titleLt = frstLt+lstLt;
+console.log(titleLt); */
+
+//Q15
+/* 
+let cities =  ["Karachi","Islamabad","Multan","Lahore"];
+let yourCity = prompt("Enter your city name");
+if (cities === cities.indexOf(yourCity.toLocaleUpperCase)){
+    console.log("You lives in a clean city");
+}
+else{
+    console.log("You lives in Another city");
+} */
 
 
+//Q16
 
+/* let arr = ["This","is","my","cat"];
+let arr2 =arr.join();
+console.log(arr2); */
+
+//Q17 + Q18
+
+/* fifo = [];
+lifo = [];
+let frst = prompt("Enter your fisrt element name");
+let scnd = prompt("Enter your scnd element name");
+let thrd = prompt("Enter your thrd element name");
+let fort = prompt("Enter your fort element name");
+
+fifo.push(frst);
+fifo.push(scnd);
+fifo.push(thrd);
+fifo.push(fort);
+
+//or 
+
+ lifo.unshift(frst);
+lifo.unshift(scnd);
+lifo.unshift(thrd);
+lifo.unshift(fort);
+
+console.log(lifo);
+console.log(fifo);
+ */
+
+//Q19
+// let phones = ['apple', 'samsung', 'oppo'];
+// let ele = `
+// <select>
+//     <option>${phones[0]}</option>
+//     <option>${phones[1]}</option>
+//     <option>${phones[2]}</option>
+// </select>
+// `;
+
+//Q20
+let arr = [];
+let arr2 =[];
+let arr3 = [];
+let num1 = +prompt("Enter the value of num1");
+let num2 = +prompt("Enter the value of num2");
+let num3 = +prompt("Enter the value of num3");
+let num4 = +prompt("Enter the value of num4");
+
+arr.push(num1);
+arr.push(num2);
+arr.push(num3);
+arr.push(num4);
+arr2= arr.slice(0)
+arr2.reverse();
+arr3= arr.slice(0)
+arr3.reverse();
+console.log(arr);
+console.log(arr2);
+console.log(arr3);
 
 
 
